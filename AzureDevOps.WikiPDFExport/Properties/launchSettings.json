@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "azuredevops-export-wiki": {
+      "commandName": "Project",
+      "commandLineArgs": "--debug -b --css .\\hld.css --attachments-path C:\\dev\\_Source\\Repos\\integwiki\\Integration-Workstream.wiki\\.attachments -m -p C:\\dev\\_Source\\Repos\\integwiki\\Integration-Workstream.wiki\\SPL-Enterprise-Integration\\HLD",
+      "workingDirectory": "C:\\_dev\\AzureDevOps.WikiPDFExport\\AzureDevOps.WikiPDFExport\\bin\\Debug\\net6.0",
+      "jsWebView2Debugging": false
+    }
+  }
+}
