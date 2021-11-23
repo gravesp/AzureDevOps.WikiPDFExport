@@ -672,7 +672,7 @@ namespace azuredevops_export_wiki
                         }
                         else if (link.Url.StartsWith("/"))
                         {
-                            //urls could be encoded and contain spaces - they are then not found on disk
+                            //urls could be encoded and contain spaces - they are then not fou  nd on disk
                             var linkUrl = HttpUtility.UrlDecode(link.Url);
                             linkUrl = linkUrl.Replace("#", "-");
                             absPath = Path.GetFullPath(_rootWikiPath + linkUrl);
